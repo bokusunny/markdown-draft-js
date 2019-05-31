@@ -269,7 +269,7 @@ function markdownToDraft(string, options = {}) {
       }
 
       if (block) {
-        previousBlockEndingLine = item.lines[1] + 1;
+        previousBlockEndingLine = item.lines[1];
         blocks.push(block);
       }
     }
